@@ -9,10 +9,10 @@ body {
 
 #sidebar {
   position: absolute;
-  width: 300px;
+  width: 100px;
   height: 100%;
   background: #000;
-  left: -300px;
+  left: -100px;
   transition: .4s;
 }
 
