@@ -29,8 +29,8 @@ body {
 
 #sidebar .toggle-btn {
   position: absolute;
-  top: 30px;
-  left: 330px;
+  top: 20px;
+  left: 120px;
 }
 
 .toggle-btn span {
