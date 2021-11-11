@@ -4,14 +4,19 @@
 }
 
 body {
-  font-family: Sans-Serif;
+  font-family: Sans-Serif, monospace;
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  background-color: rgb(25,25,25);
 }
 
 #sidebar {
+  top: 0px;
   position: absolute;
   width: 100px;
   height: 100%;
-  background: #000;
+  background: white;
   left: -100px;
   transition: .4s;
 }
@@ -22,7 +27,7 @@ body {
 
 #sidebar ul li {
  list-style: none;
- color: #fff;
+ color: black;
  font-size: 14px;
  padding: 20px 24px;
 }
@@ -36,7 +41,7 @@ body {
 .toggle-btn span {
   width: 20px;
   height: 2px;
-  background: #000;
+  background: white;
   display: block;
   margin-top: 4px;
 }
