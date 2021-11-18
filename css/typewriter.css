@@ -1,50 +1,18 @@
-/* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-/* Global */
-html{
-  min-height: 100%;
-}
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0;
-    border-right: 2px solid white;
-    font-size: 100px;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden; 
+h1 {
+  font-size: 100px;
+  color: white;
+  text-transform: uppercase;
+  padding: 100px;
+  white-space: nowrap;
 }
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 2s steps(44) 2s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 11em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: white}
-  to{border-right-color: transparent;}
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
 }
 
-.after{
-  animation-iteration-count: 0;
-  animation: showup 14s ease-in;
-}
-
-@keyframes showup{
-  0%{opacity: 0;}
-  20%{opacity: 0;}
-  80%{opacity: 1;}
-  100%{opacity: 1;}
-}
-
-.fade {
-  margin: 50px;
-  padding: 50px;
-  opacity: 0;
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
