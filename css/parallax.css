@@ -1,5 +1,14 @@
 .parallax {
-    background-image: url("yes.jpeg");
+    background-image: url("bg-01.png");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("bg-02.jpeg");
     min-height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +26,16 @@
 
 .about-me {
     font-size: 24px;
-    padding: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-decoration: none;
 }
-  
+
+.my-work {
+    text-align: left;
+    margin-top: -125px;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-decoration: none;
+}

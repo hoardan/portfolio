@@ -88,3 +88,10 @@ a {
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
 }
+
+p.project {
+  text-align: left;
+  margin-left: 200px;
+  font-size: 42px;
+  padding-top: 100px;
+}
