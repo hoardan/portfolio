@@ -1,103 +1,54 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-    <title>Jordan Damrau | Portfolio</title>
-    <meta name="generator" content="Jekyll v3.9.0">
-    <meta property="og:title" content="Jordan’s Portfolio">
-    <meta property="og:locale" content="en_US">
-    <meta name="description" content="website portfolio">
-    <meta property="og:description" content="website portfolio">
-    <link rel="canonical" href="http://jordandamrau.me/">
-    <meta property="og:url" content="http://jordandamrau.me/">
-    <meta property="og:site_name" content="portfolio">
-    <meta name="twitter:card" content="summary">
-    <meta property="twitter:title" content="Jordan’s Portfolio">
-    <script type="application/ld+json">
-      {"description":"website 
-      portfolio","url":"http://jordandamrau.me/","@type":"WebSite","headline":"Jordan’s 
-      Portfolio","name":"portfolio","@context":"https://schema.org"}
-    </script>
-    <link rel="stylesheet" href="https://jordandamrau.me/assets/css/style.css?v=1512ec6f2cb68844951f8c7ab3c6cfd56d90d5b7">
-  </head>
-  <body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-        <nav class="menu">
-            <ul class="menu-nav">
-                <li class="nav-item current">
-                    <a href="#" class="nav-link" style="text-decoration: none;">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about-me" class="nav-link" style="text-decoration: none;">ABOUT ME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#my-work" class="nav-link" style="text-decoration: none;">MY WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" style="text-decoration: none;">CONTACT ME</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div>
-        <p>JORDAN DAMRAU</p>
-        <p style="font-size: 20px; padding-top: 20px"><i>SOFTWARE DEVELOPER, WEB DEVELOPER</i></p>
-    </div>
-    <div class="arrow-down"><br></div>
-    <div class="parallax" id="about-me">
-        <div class="caption">
-            <br><br>
-            <span class="border">ABOUT ME</span>
-        </div>
-    </div>
-    <div>
-        <p class="about-me">
-            Hello! I am a computer science student currently enrolled at SUNY New Paltz. I am in my senior year and have worked 
-            on many personal projects along with school projects. Some of those include a school management system made with Java, a video game
-            made with Unreal Engine, and a website for my family.
-            <br><br>
-            Some of my hobbies include making my own pictures using adobe photoshop and illustrator, taking pictures of the outdoors, and 
-            playing video games. Some of these pictures can be seen here.
+<DOCTYPE html5>
+<html>
+    <body style="text-align: center;">
+        <div class="topnav" >
+            <a class="active" href="aboutme.html" onclick="classChange(this)" id="navbarG" name="home">about me</a>
+            <a href="skills.html" onclick="classChange(this)" id="navbarG" name="about">skills</a>
+            <a href="projects.html" onclick="classChange(this)" id="navbarG" name="skills">projects</a>
+            <a href="contact.html" onclick="classChange(this)" id="navbarG" name="proj">contact</a>
+          </div>
+        <title>jordan's test page</title>
+        <p class="pHeader">welcome to my website</p>
+        <p class="">hope you enjoy your stay</p>
+        <!-- <p class="pHeader" id="about" style="font-size: 40px; padding-top: 5%;">about me</p>
+        <p style="text-align: center; padding-left: 20%; padding-right: 20%;">
+            my name is jordan damrau and i'm a computer science student currently studying at st joseph's university. 
+            i am 22 years old and have two amazing siblings (and four crazy dogs). 
+            one of my hobbies is building computers and customizing different builds with my imaginary money.
+            i love coding difficult programs, specifically websites and video games. 
+            i have worked on various projects in school ranging from a simple calculator app to things like a large scale school management system or a souls-like video game. 
+            i'm looking to persue a career in front end web dev or software engineering.
         </p>
-    </div>
-    <div class="parallax2" id="my-work">
-        <div class="caption">
-            <br><br>
-            <span class="border">MY WORK</span>
-        </div>
-    </div>
-    <div>
-        <p class="project">SCHOOL MANAGEMENT SYSTEM:</p>
-        <p class="my-work">
-            My task for this project was to create a program that stored students, faculty, classrooms and buildings in a file and be able to write from that file using my knowledge of 
-            object-oriented programming and JavaFX.
+        <img src="planet.gif" style="width: 20%; max-width: 100%; height: 38%;"> -->
+        <!-- <p class="pHeader" id="skills">skills</p>
+        <p style="text-align: center; padding-left: 20%; padding-right: 20%;">
+            i know the ins and outs of java and html/css. 
+            i know c#, javascript, and python fairly well, but i am still working on learning some of the skills involved with those languages. 
+            along with this, i love projects involving a team that is as hardworking as i am. 
+            when i work, i tend to go above and beyond when coding my own projects to get the most out of learning. 
+            along with that, i like to communicate my ideas and critiques into certain problems and solutions. 
+            other languages i have worked with are 
+        </p> -->
+        <!-- <p class="pHeader" id="projects">projects</p>
+        <p id="iHeader"><i>school management system</i></p>
+        <p id="smallP">
+            my task for this project was to create a program that stored students, faculty, classrooms and buildings in a file and be able to write 
+            from that file using my knowledge of object-oriented programming and javafx.
         </p>
-        <p class="project">INTERNAL:</p>
-        <p class="my-work">
-            A team of me and three other people created a video game with the theme of traversing through the nine circles of hell (Dante's Inferno). With many advanced fighting mechanics,
-            npc's, mini bosses and a final boss, the game created an intense and suspenseful experience for the user. Although unfinished, a demo of the first level was created showcasing many different
-            aspects of the game.
-        </p>
-        <p class="project">PRICED RITE LANDSCAPE DESIGN:</p>
-        <p class="my-work">
-            A website showcasing my skills of HTML, CSS and Javascript was created for my family's business. This was all done with using Vue.js.
-        </p>
-    </div>
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/arrow.css">
-    <link rel="stylesheet" href="css/parallax.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/typewriter.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- </body>
+        <p id="iHeader"><i>internal (video game)</i></p>
+        <p id="smallP">
+            a team of me and three other people created a video game with the theme of traversing through the nine circles of hell (Dante's Inferno). 
+            with many advanced fighting mechanics, npc's, mini bosses and a final boss, the game created an intense and suspenseful experience for the user. 
+            although unfinished, a demo of the first level was created showcasing many different aspects of the game.
+        </p> -->
+        <!-- <p class="pHeader" id="contact">contact</p>
+        <div>
+            <label for="email" >email</label>
+            <input type="text" id="email" name="email">
+            <label for="name" >name</label>
+            <input type="text" id="name" name="name">
+        </div> -->
+    </body>
+    <script src="test.js"></script>
+    <link rel="stylesheet" type="text/css" href="testcss.css">
 </html>

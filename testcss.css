@@ -1,0 +1,75 @@
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.pHeader {
+  font-size: 28px;
+}
+
+#iHeader {
+  font-size: 22px;
+}
+
+body {
+  /* background-image: url('space.jpeg'); */
+}
+
+html {
+  background-color: #111111;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+  float: right;
+  display: block;
+  cursor: pointer;
+}
+
+.topnav {
+position: fixed;
+background-color: #111111;
+overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: center;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #212121;
+color: #f2f2f2;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #f2f2f2;
+color: black;
+}
+
+#smallP {
+  text-align: center; 
+  padding-left: 20%; 
+  padding-right: 20%;
+}
+
+#test {
+  text-align: left;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#form {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}

@@ -1,2 +1,0 @@
-# Jordan's Portfolio
-Welcome!
