@@ -16,23 +16,23 @@
             if you would like to contact me for any business inquiries or questions feel free to leave your email or phone number and the reason you
             would like to get in touch with me.
         </p>
-        <div>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="form_data.php">
             <br><br>
-            <label for="name">name (first and last)</label>
-            <input type="text" id="name" name="name">
+            <label for="Name">name (first and last)</label>
+            <input type="text" id="Name" name="Name" required>
+            <br><br><br>    
+            <label for="Email">email</label>
+            <input type="email" id="Email" name="Email" required>
             <br><br><br>
-            <label for="email">email</label>
-            <input type="text" id="phone" name="phone">
+            <label for="Phone">phone number</label>
+            <input type="phone" id="Phone" name="Phone">
             <br><br><br>
-            <label for="phone">phone number</label>
-            <input type="text" id="phone" name="phone">
-            <br><br><br>
-            <label for="reason">reason</label>
+            <label for="Message">reason</label>
             <br>
-            <textarea name="content" rows="8" cols="60"></textarea>
+            <textarea id="Message" name="Message" rows="8" cols="60" required></textarea>
             <br><br>
             <button id="submit" name="submit">submit</button>
-        </div>
+        </form>
         <div>
             <br><br>
             <a href="https://twitter.com/jordandamrau"><img src="twitter_logo.png" alt="twitter" style="width:50px;height:5opx;"></a>
