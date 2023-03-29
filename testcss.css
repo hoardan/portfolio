@@ -3,6 +3,11 @@ table.center {
   margin-right:auto;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .pHeader {
   font-size: 28px;
 }
@@ -29,14 +34,28 @@ background-color: #111111;
 overflow: hidden;
 }
 
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
-float: center;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Change the color of links on hover */

@@ -2,17 +2,21 @@
 <html>
     <head>
         <title>Jordan's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="planet.gif">
     </head>
     <body style="text-align: center;">
-        <div class="topnav" >
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+              <i class="fa fa-bars"></i>
+            </a>
             <a class="active" href="index.html" onclick="classChange(this)" id="navbarG" name="about">about me</a>
             <a href="skills.html" onclick="classChange(this)" id="navbarG" name="skills">skills</a>
             <a href="projects.html" onclick="classChange(this)" id="navbarG" name="proj">projects</a>
             <a href="contact.html" onclick="classChange(this)" id="navbarG" name="contact">contact</a>
-          </div>
-        <p class="pHeader" id="about" style="font-size: 40px; padding-top: 5%;">about me</p>
-        <p style="text-align: center; padding-left: 20%; padding-right: 20%;">
+        </div>
+        <p class="pHeader" id="about" style="font-size: 30px; padding-top: 10%;">about me</p>
+        <p style="text-align: center; padding-left: 10%; padding-right: 10%; font-size: 18px;">
             my name is jordan damrau and i'm a computer science student currently studying at st joseph's university. 
             i am 22 years old and have two amazing siblings (and four crazy dogs). 
             one of my hobbies is building computers and customizing different builds with my imaginary money.
@@ -20,7 +24,7 @@
             i have worked on various projects in school ranging from a simple calculator app to things like a large scale school management system or a souls-like video game. 
             i'm looking to persue a career in frontend web dev or software engineering.
         </p>
-        <img src="planet.gif" style="width: 350px; height: 350px; max-width: 350px; max-height: 350px;">
+        <img src="planet.gif" style="width: 100%; max-width: 350px; height: auto;">
     </body>
     <script src="test.js"></script>
     <link rel="stylesheet" type="text/css" href="testcss.css">
