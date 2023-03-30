@@ -1,53 +1,47 @@
+/* Center a table horizontally */
 table.center {
-  margin-left:auto; 
-  margin-right:auto;
+  margin: 0 auto;
 }
 
+/* Reset body margin and padding */
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
+/* Set header font sizes */
 .pHeader {
   font-size: 28px;
 }
-
 #iHeader {
   font-size: 22px;
 }
 
+/* Set background color, font family, and text color for the page */
 html {
   background-color: #111111;
-  color:white;
-  font-family:'Courier New', Courier, monospace;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
+/* Set styles for a container element */
 .container {
   float: right;
   display: block;
   cursor: pointer;
 }
 
+/* Set styles for a fixed navigation bar */
 .topnav {
-position: fixed;
-background-color: #111111;
-overflow: hidden;
+  position: fixed;
+  background-color: #111111;
+  overflow: hidden;
 }
-
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
-/* Style the links inside the navigation bar */
+/* Set styles for navigation links */
 .topnav a {
   float: left;
   display: block;
@@ -57,40 +51,29 @@ overflow: hidden;
   text-decoration: none;
   font-size: 17px;
 }
-
-/* Change the color of links on hover */
 .topnav a:hover {
-background-color: #212121;
-color: #f2f2f2;
+  background-color: #212121;
+  color: #f2f2f2;
 }
-
-/* Add a color to the active/current link */
 .topnav a.active {
-background-color: #f2f2f2;
-color: black;
+  background-color: #f2f2f2;
+  color: black;
 }
 
+#headingS {
+  font-size: 30px; 
+  padding-top: 10%;
+}
+
+/* Set styles for a paragraph with id "smallP" */
 #smallP {
   text-align: center; 
-  padding-left: 20%; 
-  padding-right: 20%;
+  padding-left: 10%; 
+  padding-right: 10%; 
+  font-size: 18px;
 }
 
-#test {
-  text-align: left;
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#form {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
+/* Set border radius for textareas and inputs */
 textarea, input {
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
   border-radius: 15px;
 }
