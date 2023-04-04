@@ -124,4 +124,14 @@ header.blogTitle {
   text-align: center;
   }
 
-  /* images on aboutme page */
+  /* me-pic and text on about-me page */
+
+  .text-wrap {
+    overflow: hidden;
+  }
+  
+  .wrapping-text {
+    float: left;
+    margin-right: 20px;
+    margin-left: 200px;
+  }
