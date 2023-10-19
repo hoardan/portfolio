@@ -70,7 +70,8 @@ html {
   text-align: center; 
   padding-left: 10%; 
   padding-right: 10%; 
-  font-size: 2vmin;
+  font-size: 2vh;
+
 }
 
 /* Set border radius for textareas and inputs */
